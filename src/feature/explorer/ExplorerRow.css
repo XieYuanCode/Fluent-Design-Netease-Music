@@ -1,0 +1,14 @@
+.explorer-row {
+    border-radius: var(--borderRadiusXLarge);
+    margin-top: var(--spacingVerticalXS);
+}
+
+.explorer-row:hover {
+    background-color: rgb(255 255 255 / 0.3);
+    box-shadow: var(--shadow2);
+}
+
+.explorer-row:active {
+    background-color: rgb(255 255 255 / 0.5);
+    box-shadow: var(--shadow4);
+}

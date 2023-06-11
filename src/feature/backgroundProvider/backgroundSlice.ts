@@ -7,13 +7,13 @@ export interface IBackgroundState {
     backgroundType: BackgroundType
     backgroundFilterBlurPixel: number
     backgroundImageSrc?: string
-    backgroundImageColor?: string
+    backgroundColor?: string
 }
 
 export const initialState: IBackgroundState = {
     backgroundType: "Color",
     backgroundFilterBlurPixel: 10,
-    backgroundImageColor: "green"
+    backgroundColor: "#fff1f2"
 }
 
 export const backgroundSlice = createSlice({

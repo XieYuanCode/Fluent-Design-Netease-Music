@@ -1,0 +1,10 @@
+.left-explorer {
+    box-shadow: var(--shadow8);
+    border-radius: var(--borderRadiusXLarge);
+    min-width: 230px;
+}
+
+.left-explorer:hover {
+    box-shadow: var(--shadow4);
+}
+
