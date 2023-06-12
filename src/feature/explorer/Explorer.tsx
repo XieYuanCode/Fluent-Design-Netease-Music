@@ -1,4 +1,4 @@
-import { SubtleButton } from "../../Component/SubtleButton";
+// import { SubtleButton } from "../../Component/SubtleButton";
 import "./Explorer.css"
 import { ExplorerRow } from "./ExplorerRow"
 import { ExplorerSectionHeader } from "./ExplorerSectionHeader"
@@ -17,13 +17,13 @@ export function Explorer() {
             <ExplorerRow text="关注"></ExplorerRow>
             <ExplorerRow text="直播"></ExplorerRow>
             <ExplorerSectionHeader text="我的音乐"></ExplorerSectionHeader>
-            <ExplorerRow text="我喜欢的音乐"
+            {/* <ExplorerRow text="我喜欢的音乐"
                 icon={<Heart20Regular className="icon mr-1"></Heart20Regular>}
                 action={<SubtleButton rounder="rounded-full">
                     <HeartPulse20Regular></HeartPulse20Regular>
                 </SubtleButton>}
-            >
-            </ExplorerRow>
+            > */}
+            {/* </ExplorerRow> */}
         </div>
     )
 }
